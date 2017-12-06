@@ -1,0 +1,19 @@
+{
+  "name": "cheznestor-common",
+  "version": "1.0.0",
+  "description": "Constants used throughout Chez Nestor projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chez-nestor/const.git"
+  },
+  "author": "@louis_remi",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/chez-nestor/const/issues"
+  },
+  "homepage": "https://github.com/chez-nestor/const#readme"
+}
