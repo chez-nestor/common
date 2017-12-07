@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/chez-nestor/const/issues"
   },
-  "homepage": "https://github.com/chez-nestor/const#readme"
+  "homepage": "https://github.com/chez-nestor/const#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
