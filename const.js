@@ -32,41 +32,42 @@ module.exports = {
     },
   },
   DEPOSIT_PRICES: {
-    lyon:        70000,
-    paris:       90000,
-    montpellier: 50000,
+    paris:        90000,
+    lyon:         70000,
+    montpellier:  50000,
+    lille:        50000,
   },
 
   ROOM_SWITCH_FEES: {
-    basic:     29000,
-    comfort:   19000,
-    privilege:  9000,
+    basic:        29000,
+    comfort:      19000,
+    privilege:     9000,
   },
   HOME_CHECKIN_FEES: {
-    basic:      7900,
-    comfort:       0,
-    privilege:     0,
+    basic:         7900,
+    comfort:          0,
+    privilege:        0,
   },
   SPECIAL_CHECKIN_FEES: {
-    basic:     14900,
-    comfort:    7900,
-    privilege:     0,
+    basic:        14900,
+    comfort:       7900,
+    privilege:        0,
   },
   SPECIAL_CHECKOUT_FEES: {
-    basic:     14900,
-    comfort:   14900,
-    privilege:  7900,
+    basic:        14900,
+    comfort:      14900,
+    privilege:     7900,
   },
   LEFT_LUGGAGE_FEES: {
-    basic:     12900,
-    comfort:       0,
-    privilege:     0,
+    basic:        12900,
+    comfort:          0,
+    privilege:        0,
   },
 
   SERVICE_FEES: {
-    1:       5000, // 1 room
-    2:       4000, // 2 rooms
-    default: 3000, // 3 or more rooms
+    1:            5000, // 1 room
+    2:            4000, // 2 rooms
+    default:      3000, // 3 or more rooms
   },
 
   CHECKIN_DURATION:  30,
