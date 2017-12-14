@@ -99,7 +99,9 @@ module.exports = {
 
   SUPPORT_EMAIL: 'support@chez-nestor.com',
 
-  IDENTITY_FORM_URLS: {
+  IDENTITY_FORM_URL: '//forms.chez-nestor.com/form/50392735671964',
+
+  CHECKIN_FORM_URLS: {
     basic: 'forms.chez-nestor.com/73332904404955',
     comfort: 'forms.chez-nestor.com/73344756704966',
     privilege: 'forms.chez-nestor.com/73344784804968',
