@@ -100,6 +100,8 @@ module.exports = {
   SUPPORT_EMAIL: 'support@chez-nestor.com',
 
   LEASE_SPECIMEN_URL: 'https://drive.google.com/file/d/0B6uBt4Bf8BxuSnRod3d1TGp3bFU/view',
+  ZOB_URL: 'https://drive.google.com/file/d/0B6uBt4Bf8BxuSnRod3d1TGp3bFU/view',
+  ZOB_URL2: '//drive.google.com/file/d/0B6uBt4Bf8BxuSnRod3d1TGp3bFU/view',
 
   IDENTITY_FORM_URL: '//forms.chez-nestor.com/form/50392735671964',
 
