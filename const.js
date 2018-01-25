@@ -108,4 +108,536 @@ module.exports = {
     comfort: 'forms.chez-nestor.com/73344756704966',
     privilege: 'forms.chez-nestor.com/73344784804968',
   },
+
+  ENUMS: {
+    apartmentPicsAlts: {
+      kitchen: {
+        'fr-FR': 'Cuisine',
+        'en-US': 'Kitchen',
+      },
+      bathroom: {
+        'fr-FR': 'Salle de bain',
+        'en-US': 'Bathroom',
+      },
+      hall: {
+        'fr-FR': 'Hall',
+        'en-US': 'Hall',
+      },
+      wc: {
+        'fr-FR': 'Toilettes',
+        'en-US': 'Toilets',
+      },
+      balcony: {
+        'fr-FR': 'Balcon',
+        'en-US': 'Balcony',
+      },
+      patio: {
+        'fr-FR': 'Terrasse',
+        'en-US': 'Patio',
+      },
+      garden: {
+        'fr-FR': 'Jardin',
+        'en-US': 'Garden',
+      },
+      loggia: {
+        'fr-FR': 'Loggia',
+        'en-US': 'Loggia',
+      },
+      livingroom: {
+        'fr-FR': 'Séjour',
+        'en-US': 'Living room',
+      },
+      diningroom: {
+        'fr-FR': 'Salle à manger',
+        'en-US': 'Dining room',
+      },
+      building: {
+        'fr-FR': 'Immeuble',
+        'en-US': 'Building',
+      },
+      cellar: {
+        'fr-FR': 'Cellier',
+        'en-US': 'Cellar',
+      },
+      dressing: {
+        'fr-FR': 'Dressing',
+        'en-US': 'Dressing',
+      },
+    },
+    roomPicsAlts: {
+      overview: {
+        'fr-FR': 'Vue d\'ensemble de la chambre',
+        'en-US': 'Overview of the room',
+      },
+      privateBathroom: {
+        'en-US': 'Private Bathroom',
+        'fr-FR': 'Salle de bain privée',
+      },
+      privateToilet: {
+        'en-US': 'Private Toilet',
+        'fr-FR': 'WC Privés',
+      },
+      privateBalcony: {
+        'en-US': 'Private Balcony',
+        'fr-FR': 'Ballcon privé',
+      },
+      privateTerrace: {
+        'en-US': 'Private Terrace',
+        'fr-FR': 'Terrasse Privée',
+      },
+      privateGarden: {
+        'en-US': 'Private Garden',
+        'fr-FR': 'Jardin privé',
+      },
+      privateDressing: {
+        'en-US': 'Private Dressing',
+        'fr-FR': 'Dressing privé',
+      },
+      privateLoggia: {
+        'en-US': 'Private Loggia',
+        'fr-FR': 'Loggia privé',
+      },
+    },
+    beds: {
+      double: {
+        'fr-FR': 'lit double',
+        'en-US': 'double bed',
+      },
+      simple: {
+        'fr-FR': 'lit simple',
+        'en-US': 'single bed',
+      },
+      sofa: {
+        'fr-FR': 'canapé',
+        'en-US': 'sofa',
+      },
+      'double+sofa': {
+        'fr-FR': 'lit double + canapé',
+        'en-US': 'double bed + sofa',
+      },
+      'simple+sofa': {
+        'fr-FR': 'lit simple + sofa',
+        'en-US': 'single bed + sofa',
+      },
+      'simple+simple': {
+        'fr-FR': 'deux lits simples',
+        'en-US': 'two single beds',
+      },
+    },
+    'room-features-sleep': {
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+      },
+      duvetAndPillow: {
+        default: true,
+        'en-US': 'Duvet and Pillow',
+        'fr-FR': 'Couette et Oreiller',
+        css: 'picto-equipement_chambre_couette_et_oreiller',
+      },
+      bedsideTable: {
+        'en-US': 'Bedside Table',
+        'fr-FR': 'Table de chevet',
+        css: 'picto-equipement_chambre_table_chevet',
+      },
+      bedsideLamp: {
+        'en-US': 'Bedside Lamp',
+        'fr-FR': 'Lampe de chevet',
+        css: 'picto-equipement_chambre_table_chevet',
+      },
+      shutters: {
+        'en-US': 'Shutters',
+        'fr-FR': 'Volets',
+        css: 'picto-equipement_chambre_volets',
+      },
+      curtains: {
+        'en-US': 'Curtains',
+        'fr-FR': 'Rideaux',
+        css: 'picto-equipement_chambre_rideaux_ou_voilages',
+      },
+      netCurtains: {
+        'en-US': 'Net Curtains',
+        'fr-FR': 'Voilage',
+        css: 'picto-equipement_chambre_rideaux_ou_voilages',
+      },
+    },
+    'room-features-work': {
+      deskAndChair: {
+        default: true,
+        'en-US': 'Desk and Chair',
+        'fr-FR': 'Bureau et Chaise',
+        css: 'picto-equipement_chambre_bureau',
+      },
+      lamp: {
+        default: true,
+        'en-US': 'Lamp',
+        'fr-FR': 'Lampe',
+        css: 'picto-equipement_chambre_lampes',
+      },
+      bookCase: {
+        'en-US': 'Book Case',
+        'fr-FR': 'Bibliothèque',
+        css: 'picto-equipement_chambre_bibliotheque',
+      },
+      multiSocket: {
+        default: true,
+        'en-US': 'Multi-Socket Extension Cable',
+        'fr-FR': 'Multiprise',
+        css: 'picto-equipement_chambre_multiprise',
+      },
+    },
+    'room-features-dress': {
+      storage: {
+        default: true,
+        'en-US': 'Storage',
+        'fr-FR': 'Rangements',
+        css: 'picto-equipement_chambre_dressing',
+      },
+      coatHanger: {
+        'en-US': ' Coat-hanger',
+        'fr-FR': 'Cintres',
+        css: 'picto-equipement_chambre_cintres',
+      },
+      mirror: {
+        'en-US': 'Mirror',
+        'fr-FR': 'Miroir',
+        css: 'picto-equipement_salle_de_bain_miroir',
+      },
+      walkinWardrobe: {
+        'en-US': 'Walk-in Wardrobe',
+        'fr-FR': 'Dressing Privé',
+        css: 'picto-equipement_chambre_dressing',
+      },
+    },
+    'room-features-general': {
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+      },
+      coffeeTable: {
+        'en-US': 'Coffee Table',
+        'fr-FR': 'Table Basse',
+        css: 'picto-equipement_chambre_table_basse',
+      },
+      lockedRoom: {
+        'en-US': 'Locked Room',
+        'fr-FR': 'Chambre fermée à clé',
+        css: 'picto-equipement_chambre_fermeture',
+      },
+      privateBathroom: {
+        'en-US': 'Private Bathroom',
+        'fr-FR': 'Salle de bain privée',
+        css: 'picto-equipement_chambre_sdb_privee',
+      },
+      privateToilet: {
+        'en-US': 'Private Toilet',
+        'fr-FR': 'WC Privés',
+        css: 'picto-equipement_chambre_wc_prives',
+      },
+      privateBalcony: {
+        'en-US': 'Private Balcony',
+        'fr-FR': 'Ballcon privé',
+        css: 'picto-equipement_chambre_balcon',
+      },
+      privateTerrace: {
+        'en-US': 'Private Terrace',
+        'fr-FR': 'Terrasse Privée',
+        css: 'picto-equipement_chambre_balcon',
+      },
+      privateGarden: {
+        'en-US': 'Private Garden',
+        'fr-FR': 'Jardin privé',
+        css: 'picto-equipement_chambre_jardin',
+      },
+      balcony: {
+        'en-US': 'Balcony',
+        'fr-FR': 'Balcon',
+        css: 'picto-equipement_chambre_balcon',
+      },
+      terrace: {
+        'en-US': 'Terrace',
+        'fr-FR': 'Terrasse',
+        css: 'picto-equipement_chambre_balcon',
+      },
+      garden: {
+        'en-US': 'Garden',
+        'fr-FR': 'Jardin',
+        css: 'picto-equipement_chambre_jardin',
+      },
+      terraceFurniture: {
+        'en-US': 'Terrace Furniture',
+        'fr-FR': 'Mobilier de Terrasse',
+        css: 'picto-equipement_chambre_mobilier_de_terrasse',
+      },
+      individualHeating: {
+        'en-US': 'Individual Heating',
+        'fr-FR': 'Chauffage Individuel',
+        css: 'picto-equipement_chambre_mobilier_de_terrasse',
+      },
+    },
+    'apartment-features-kitchen': {
+      bakingTrays: {
+        default: true,
+        'en-US': 'Baking Trays',
+        'fr-FR': 'Plaques',
+        css: 'picto-inclus_gaz',
+      },
+      oven: {
+        default: true,
+        'en-US': 'Oven',
+        'fr-FR': 'Four',
+        css: 'picto-equipement_cuisine_four',
+      },
+      microwave: {
+        default: true,
+        'en-US': 'Microwave',
+        'fr-FR': 'Micro-onde',
+        css: 'picto-equipement_cuisine_micro_ondes',
+      },
+      dishwasher: {
+        'en-US': 'Dishwasher',
+        'fr-FR': 'Lave-vaisselle',
+        css: 'picto-equipement_cuisine_lave_vaisselle',
+      },
+      fridge: {
+        default: true,
+        'en-US': 'Fridge',
+        'fr-FR': 'Frigo',
+        css: 'picto-equipement_cuisine_frigo',
+      },
+      kettle: {
+        default: true,
+        'en-US': 'Kettle',
+        'fr-FR': 'Bouilloire',
+        css: 'picto-equipement_cuisine_bouilloire',
+      },
+      pot: {
+        default: true,
+        'en-US': 'Pot',
+        'fr-FR': 'Casseroles',
+        css: 'picto-equipement_cuisine_casseroles',
+      },
+      pan: {
+        default: true,
+        'en-US': 'Pan',
+        'fr-FR': 'Poeles',
+        css: 'picto-equipement_cuisine_poeles',
+      },
+      utensils: {
+        default: true,
+        'en-US': 'Utensils',
+        'fr-FR': 'Ustensiles',
+        css: 'picto-equipement_cuisine_ustensiles',
+      },
+      stewpot: {
+        default: true,
+        'en-US': 'Stewpot',
+        'fr-FR': 'Faitout',
+        css: 'picto-equipement_cuisine_ustensiles',
+      },
+      plates: {
+        default: true,
+        'en-US': 'Plates',
+        'fr-FR': 'Assiettes',
+        css: 'picto-equipement_cuisine_assiettes',
+      },
+      cutlery: {
+        default: true,
+        'en-US': 'Cutlery',
+        'fr-FR': 'Couverts',
+        css: 'picto-equipement_cuisine_couverts',
+      },
+      glasses: {
+        default: true,
+        'en-US': 'Glasses',
+        'fr-FR': 'Verre',
+        css: 'picto-equipement_cuisine_verres',
+      },
+      mugs: {
+        default: true,
+        'en-US': 'Mugs',
+        'fr-FR': 'Mugs',
+        css: 'picto-equipement_cuisine_mugs',
+      },
+      bowls: {
+        default: true,
+        'en-US': 'Bowls',
+        'fr-FR': 'Bols',
+        css: 'picto-equipement_cuisine_bols',
+      },
+      saladBowl: {
+        default: true,
+        'en-US': 'Salad Bowl',
+        'fr-FR': 'Saladier',
+        css: 'picto-equipement_cuisine_bols',
+      },
+      sieve: {
+        default: true,
+        'en-US': 'Sieve',
+        'fr-FR': 'Passoire',
+        css: 'picto-equipement_cuisine_bols',
+      },
+      glassBottle: {
+        default: true,
+        'en-US': 'Glass Bottle',
+        'fr-FR': 'Bouteilles en verre',
+        css: 'picto-equipement_cuisine_bouteilles_de_verre',
+      },
+      scissors: {
+        default: true,
+        'en-US': 'Scissors',
+        'fr-FR': 'Ciseaux',
+        css: 'picto-equipement_cuisine_bouteilles_de_verre',
+      },
+      dryingRack: {
+        default: true,
+        'en-US': 'Drying Rack',
+        'fr-FR': 'Egouttoir',
+        css: 'picto-equipement_cuisine_bouteilles_de_verre',
+      },
+      corkscrew: {
+        default: true,
+        'en-US': 'Corkscrew',
+        'fr-FR': 'Tire-bouchon',
+        css: 'picto-equipement_cuisine_tire_bouchon',
+      },
+      choppingBoards: {
+        default: true,
+        'en-US': 'Chopping Boards',
+        'fr-FR': 'Planches à découper',
+        css: 'picto-equipement_general_planche_a_repasser',
+      },
+      storage: {
+        default: true,
+        'en-US': 'Storage',
+        'fr-FR': 'Rangements',
+        css: 'picto-equipement_chambre_rangements',
+      },
+    },
+    'apartment-features-bathroom': {
+      bathtub: {
+        'en-US': 'Bathtub',
+        'fr-FR': 'Baignoire',
+        css: 'picto-equipement_salle_de_bain_douche',
+      },
+      shower: {
+        'en-US': 'Shower',
+        'fr-FR': 'Douche',
+        css: 'picto-equipement_salle_de_bain_douche',
+      },
+      storage: {
+        'en-US': 'Storage',
+        'fr-FR': 'Rangements',
+        css: 'picto-equipement_chambre_rangements',
+      },
+      bathMat: {
+        default: true,
+        'en-US': 'Bath Mat',
+        'fr-FR': 'Tapis de Bain',
+        css: 'picto-equipement_salle_de_bain_tapis_de_bain',
+      },
+      mirror: {
+        default: true,
+        'en-US': 'Mirror',
+        'fr-FR': 'Miroir',
+        css: 'picto-equipement_salle_de_bain_miroir',
+      },
+      sink: {
+        'en-US': 'Sink',
+        'fr-FR': 'Lavabo',
+        css: 'picto-equipement_salle_de_bain_douche',
+      },
+    },
+    'apartment-features-general': {
+      wifi: {
+        default: true,
+        'en-US': 'Wifi',
+        'fr-FR': 'Wifi',
+        css: 'picto-inclus_wifi',
+      },
+      washingMachine: {
+        'en-US': 'Washing Machine',
+        'fr-FR': 'Lave-linge',
+        css: 'picto-equipement_general_lave_linge',
+      },
+      storage: {
+        'en-US': 'Storage',
+        'fr-FR': 'Rangements',
+        css: 'picto-equipement_chambre_rangements',
+      },
+      coatHanger: {
+        'en-US': ' Coat-hanger',
+        'fr-FR': 'Cintres',
+        css: 'picto-equipement_chambre_cintres',
+      },
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+      },
+      coffeeTable: {
+        'en-US': 'Coffee Table',
+        'fr-FR': 'Table Basse',
+        css: 'picto-equipement_chambre_table_basse',
+      },
+      iron: {
+        default: true,
+        'en-US': 'Iron',
+        'fr-FR': 'Fer à repasser',
+        css: 'picto-equipement_general_fer_a_repasser',
+      },
+      ironingBoard: {
+        default: true,
+        'en-US': 'Ironing Board',
+        'fr-FR': 'Planche à repasser',
+        css: 'picto-equipement_general_planche_a_repasser',
+      },
+      dryingRack: {
+        default: true,
+        'en-US': 'Drying Rack',
+        'fr-FR': 'Tancarville',
+        css: 'picto-equipement_general_tancarville',
+      },
+      vaccum: {
+        default: true,
+        'en-US': 'Vaccum',
+        'fr-FR': 'Aspirateur',
+        css: 'picto-equipement_general_aspirateur',
+      },
+      mopAndBucket: {
+        default: true,
+        'en-US': 'Mop and Bucket',
+        'fr-FR': 'Serpillère et seau',
+        css: 'picto-equipement_general_kit_menage',
+      },
+      scrubBrush: {
+        default: true,
+        'en-US': 'Scrub Brush',
+        'fr-FR': 'Balai Brosse',
+        css: 'picto-equipement_general_kit_menage',
+      },
+      balcony: {
+        'en-US': 'Balcony',
+        'fr-FR': 'Balcon',
+        css: 'picto-equipement_chambre_balcon',
+      },
+      terrace: {
+        'en-US': 'Terrace',
+        'fr-FR': 'Terrasse',
+        css: 'picto-equipement_chambre_balcon',
+      },
+      garden: {
+        'en-US': 'Garden',
+        'fr-FR': 'Jardin',
+        css: 'picto-equipement_chambre_jardin',
+      },
+      terraceFurniture: {
+        'en-US': 'Terrace Furniture',
+        'fr-FR': 'Mobilier de Terrasse',
+        css: 'picto-equipement_chambre_mobilier_de_terrasse',
+      },
+    },
+  },
 };
