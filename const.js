@@ -227,11 +227,6 @@ module.exports = {
       },
     },
     'room-features-sleep': {
-      sofa: {
-        'en-US': 'Sofa',
-        'fr-FR': 'Canapé',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
-      },
       duvetAndPillow: {
         default: true,
         'en-US': 'Duvet and Pillow',
