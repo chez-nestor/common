@@ -481,7 +481,7 @@ module.exports = {
       drainer: {
         default: true,
         'en-US': 'Drainer',
-        'fr-FR': 'Passoire',
+        'fr-FR': 'Égouttoir',
         css: 'picto-equipement_cuisine_bols',
       },
       glassBottle: {
@@ -494,12 +494,6 @@ module.exports = {
         default: true,
         'en-US': 'Scissors',
         'fr-FR': 'Ciseaux',
-        css: 'picto-equipement_cuisine_bouteilles_de_verre',
-      },
-      dryingRack: {
-        default: true,
-        'en-US': 'Drying Rack',
-        'fr-FR': 'Egouttoir',
         css: 'picto-equipement_cuisine_bouteilles_de_verre',
       },
       corkscrew: {
