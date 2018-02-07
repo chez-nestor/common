@@ -165,6 +165,10 @@ module.exports = {
         'fr-FR': 'Dressing',
         'en-US': 'Dressing',
       },
+      floorplan: {
+        'fr-FR': 'Floor Plan',
+        'en-US': 'Plan du logement',
+      }
     },
     roomPicsAlts: {
       overview: {
