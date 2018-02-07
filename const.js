@@ -318,6 +318,11 @@ module.exports = {
         'fr-FR': 'Fauteuil',
         css: 'picto-equipement_chambre_canape_ou_canape_lit',
       },
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+      },
       coffeeTable: {
         'en-US': 'Coffee Table',
         'fr-FR': 'Table Basse',
