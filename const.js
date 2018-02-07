@@ -97,6 +97,8 @@ module.exports = {
     montpellier: '4 rue Paul Lacroix, 34070 Montpellier',
   },
 
+  SALES_EMAIL: 'hello@chez-nestor.com',
+
   SUPPORT_EMAIL: 'support@chez-nestor.com',
 
   LEASE_SPECIMEN_URL: 'https://drive.google.com/file/d/0B6uBt4Bf8BxuSnRod3d1TGp3bFU/view',
@@ -256,8 +258,8 @@ module.exports = {
         'fr-FR': 'Rideaux',
         css: 'picto-equipement_chambre_rideaux_ou_voilages',
       },
-      netCurtains: {
-        'en-US': 'Net Curtains',
+      veilCurtains: {
+        'en-US': 'Veil Curtains',
         'fr-FR': 'Voilage',
         css: 'picto-equipement_chambre_rideaux_ou_voilages',
       },
@@ -294,8 +296,8 @@ module.exports = {
         'fr-FR': 'Rangements',
         css: 'picto-equipement_chambre_dressing',
       },
-      coatHanger: {
-        'en-US': ' Coat-hanger',
+      hangers: {
+        'en-US': 'Hangers',
         'fr-FR': 'Cintres',
         css: 'picto-equipement_chambre_cintres',
       },
@@ -311,9 +313,9 @@ module.exports = {
       },
     },
     'room-features-general': {
-      sofa: {
-        'en-US': 'Sofa',
-        'fr-FR': 'Canapé',
+      armchair: {
+        'en-US': 'Armchair',
+        'fr-FR': 'Fauteuil',
         css: 'picto-equipement_chambre_canape_ou_canape_lit',
       },
       coffeeTable: {
@@ -378,12 +380,6 @@ module.exports = {
       },
     },
     'apartment-features-kitchen': {
-      bakingTrays: {
-        default: true,
-        'en-US': 'Baking Trays',
-        'fr-FR': 'Plaques',
-        css: 'picto-inclus_gaz',
-      },
       oven: {
         default: true,
         'en-US': 'Oven',
@@ -395,6 +391,11 @@ module.exports = {
         'en-US': 'Microwave',
         'fr-FR': 'Micro-onde',
         css: 'picto-equipement_cuisine_micro_ondes',
+      },
+      bakingTray: {
+        'en-US': 'Baking Tray',
+        'fr-FR': 'Plaques',
+        css: 'picto-inclus_gaz',
       },
       dishwasher: {
         'en-US': 'Dishwasher',
@@ -413,15 +414,15 @@ module.exports = {
         'fr-FR': 'Bouilloire',
         css: 'picto-equipement_cuisine_bouilloire',
       },
-      pot: {
+      cookingPots: {
         default: true,
-        'en-US': 'Pot',
+        'en-US': 'Cooking pots',
         'fr-FR': 'Casseroles',
         css: 'picto-equipement_cuisine_casseroles',
       },
       pan: {
         default: true,
-        'en-US': 'Pan',
+        'en-US': 'Pans',
         'fr-FR': 'Poeles',
         css: 'picto-equipement_cuisine_poeles',
       },
@@ -431,9 +432,9 @@ module.exports = {
         'fr-FR': 'Ustensiles',
         css: 'picto-equipement_cuisine_ustensiles',
       },
-      stewpot: {
+      largePot: {
         default: true,
-        'en-US': 'Stewpot',
+        'en-US': 'Large pot',
         'fr-FR': 'Faitout',
         css: 'picto-equipement_cuisine_ustensiles',
       },
@@ -473,15 +474,15 @@ module.exports = {
         'fr-FR': 'Saladier',
         css: 'picto-equipement_cuisine_bols',
       },
-      sieve: {
+      drainer: {
         default: true,
-        'en-US': 'Sieve',
+        'en-US': 'Drainer',
         'fr-FR': 'Passoire',
         css: 'picto-equipement_cuisine_bols',
       },
       glassBottle: {
         default: true,
-        'en-US': 'Glass Bottle',
+        'en-US': 'Glass Bottles',
         'fr-FR': 'Bouteilles en verre',
         css: 'picto-equipement_cuisine_bouteilles_de_verre',
       },
@@ -503,9 +504,9 @@ module.exports = {
         'fr-FR': 'Tire-bouchon',
         css: 'picto-equipement_cuisine_tire_bouchon',
       },
-      choppingBoards: {
+      cuttingBoards: {
         default: true,
-        'en-US': 'Chopping Boards',
+        'en-US': 'Cutting Boards',
         'fr-FR': 'Planches à découper',
         css: 'picto-equipement_general_planche_a_repasser',
       },
@@ -517,6 +518,18 @@ module.exports = {
       },
     },
     'apartment-features-bathroom': {
+      bathMat: {
+        default: true,
+        'en-US': 'Bath Mat',
+        'fr-FR': 'Tapis de Bain',
+        css: 'picto-equipement_salle_de_bain_tapis_de_bain',
+      },
+      mirror: {
+        default: true,
+        'en-US': 'Mirror',
+        'fr-FR': 'Miroir',
+        css: 'picto-equipement_salle_de_bain_miroir',
+      },
       bathtub: {
         'en-US': 'Bathtub',
         'fr-FR': 'Baignoire',
@@ -532,18 +545,6 @@ module.exports = {
         'fr-FR': 'Rangements',
         css: 'picto-equipement_chambre_rangements',
       },
-      bathMat: {
-        default: true,
-        'en-US': 'Bath Mat',
-        'fr-FR': 'Tapis de Bain',
-        css: 'picto-equipement_salle_de_bain_tapis_de_bain',
-      },
-      mirror: {
-        default: true,
-        'en-US': 'Mirror',
-        'fr-FR': 'Miroir',
-        css: 'picto-equipement_salle_de_bain_miroir',
-      },
       sink: {
         'en-US': 'Sink',
         'fr-FR': 'Lavabo',
@@ -556,31 +557,6 @@ module.exports = {
         'en-US': 'Wifi',
         'fr-FR': 'Wifi',
         css: 'picto-inclus_wifi',
-      },
-      washingMachine: {
-        'en-US': 'Washing Machine',
-        'fr-FR': 'Lave-linge',
-        css: 'picto-equipement_general_lave_linge',
-      },
-      storage: {
-        'en-US': 'Storage',
-        'fr-FR': 'Rangements',
-        css: 'picto-equipement_chambre_rangements',
-      },
-      coatHanger: {
-        'en-US': ' Coat-hanger',
-        'fr-FR': 'Cintres',
-        css: 'picto-equipement_chambre_cintres',
-      },
-      sofa: {
-        'en-US': 'Sofa',
-        'fr-FR': 'Canapé',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
-      },
-      coffeeTable: {
-        'en-US': 'Coffee Table',
-        'fr-FR': 'Table Basse',
-        css: 'picto-equipement_chambre_table_basse',
       },
       iron: {
         default: true,
@@ -600,9 +576,9 @@ module.exports = {
         'fr-FR': 'Tancarville',
         css: 'picto-equipement_general_tancarville',
       },
-      vaccum: {
+      vaccumCleaner: {
         default: true,
-        'en-US': 'Vaccum',
+        'en-US': 'Vaccum cleaner',
         'fr-FR': 'Aspirateur',
         css: 'picto-equipement_general_aspirateur',
       },
@@ -617,6 +593,31 @@ module.exports = {
         'en-US': 'Scrub Brush',
         'fr-FR': 'Balai Brosse',
         css: 'picto-equipement_general_kit_menage',
+      },
+      washingMachine: {
+        'en-US': 'Washing Machine',
+        'fr-FR': 'Lave-linge',
+        css: 'picto-equipement_general_lave_linge',
+      },
+      storage: {
+        'en-US': 'Storage',
+        'fr-FR': 'Rangements',
+        css: 'picto-equipement_chambre_rangements',
+      },
+      hangers: {
+        'en-US': 'Hangers',
+        'fr-FR': 'Cintres',
+        css: 'picto-equipement_chambre_cintres',
+      },
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+      },
+      coffeeTable: {
+        'en-US': 'Coffee Table',
+        'fr-FR': 'Table Basse',
+        css: 'picto-equipement_chambre_table_basse',
       },
       balcony: {
         'en-US': 'Balcony',
