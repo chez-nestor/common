@@ -401,8 +401,8 @@ module.exports = {
         'fr-FR': 'Micro-onde',
         css: 'picto-equipement_cuisine_micro_ondes',
       },
-      bakingTray: {
-        'en-US': 'Baking Tray',
+      hotPlates: {
+        'en-US': 'Hot-plates',
         'fr-FR': 'Plaques',
         css: 'picto-inclus_gaz',
       },
@@ -487,12 +487,6 @@ module.exports = {
         default: true,
         'en-US': 'Colander',
         'fr-FR': 'Passoire',
-        css: 'picto-equipement_cuisine_bols',
-      },
-      drainer: {
-        default: true,
-        'en-US': 'Drainer',
-        'fr-FR': 'Égouttoir',
         css: 'picto-equipement_cuisine_bols',
       },
       glassBottle: {
