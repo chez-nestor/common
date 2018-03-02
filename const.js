@@ -581,13 +581,13 @@ module.exports = {
       },
       dryingRack: {
         default: true,
-        'en-US': 'Drying Rack',
+        'en-US': 'Clothes rack',
         'fr-FR': 'Tancarville',
         css: 'picto-equipement_general_tancarville',
       },
-      vaccumCleaner: {
+      vacuumCleaner: {
         default: true,
-        'en-US': 'Vaccum cleaner',
+        'en-US': 'Vacuum cleaner',
         'fr-FR': 'Aspirateur',
         css: 'picto-equipement_general_aspirateur',
       },
