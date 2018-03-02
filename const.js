@@ -168,7 +168,7 @@ module.exports = {
       floorplan: {
         'fr-FR': 'Floor Plan',
         'en-US': 'Plan du logement',
-      }
+      },
     },
     roomPicsAlts: {
       overview: {
@@ -236,6 +236,11 @@ module.exports = {
         'en-US': 'Duvet and Pillow',
         'fr-FR': 'Couette et Oreiller',
         css: 'picto-equipement_chambre_couette_et_oreiller',
+      },
+      sofaBed: {
+        'en-US': 'Double sofa bed',
+        'fr-FR': 'Canapé-lit double',
+        css: 'picto-equipement_chambre_canape_lit',
       },
       bedsideTable: {
         'en-US': 'Bedside Table',
@@ -306,8 +311,8 @@ module.exports = {
         css: 'picto-equipement_salle_de_bain_miroir',
       },
       walkinWardrobe: {
-        'en-US': 'Walk-in Wardrobe',
-        'fr-FR': 'Dressing Privé',
+        'en-US': 'Walk-in wardrobe',
+        'fr-FR': 'Dressing privé',
         css: 'picto-equipement_chambre_dressing',
       },
     },
@@ -323,33 +328,33 @@ module.exports = {
         css: 'picto-equipement_chambre_canape_ou_canape_lit',
       },
       coffeeTable: {
-        'en-US': 'Coffee Table',
-        'fr-FR': 'Table Basse',
+        'en-US': 'Coffee table',
+        'fr-FR': 'Table basse',
         css: 'picto-equipement_chambre_table_basse',
       },
       lockedRoom: {
-        'en-US': 'Locked Room',
+        'en-US': 'Locked room',
         'fr-FR': 'Chambre fermée à clé',
         css: 'picto-equipement_chambre_fermeture',
       },
       privateBathroom: {
-        'en-US': 'Private Bathroom',
+        'en-US': 'Private bathroom',
         'fr-FR': 'Salle de bain privée',
         css: 'picto-equipement_chambre_sdb_privee',
       },
       privateToilet: {
-        'en-US': 'Private Toilet',
-        'fr-FR': 'WC Privés',
+        'en-US': 'Private toilet',
+        'fr-FR': 'WC privés',
         css: 'picto-equipement_chambre_wc_prives',
       },
       privateBalcony: {
-        'en-US': 'Private Balcony',
-        'fr-FR': 'Ballcon privé',
+        'en-US': 'Private blcony',
+        'fr-FR': 'Balcon privé',
         css: 'picto-equipement_chambre_balcon',
       },
       privateTerrace: {
-        'en-US': 'Private Terrace',
-        'fr-FR': 'Terrasse Privée',
+        'en-US': 'Private terrace',
+        'fr-FR': 'Terrasse privée',
         css: 'picto-equipement_chambre_balcon',
       },
       privateGarden: {
@@ -373,13 +378,13 @@ module.exports = {
         css: 'picto-equipement_chambre_jardin',
       },
       terraceFurniture: {
-        'en-US': 'Terrace Furniture',
-        'fr-FR': 'Mobilier de Terrasse',
+        'en-US': 'Terrace furniture',
+        'fr-FR': 'Mobilier de terrasse',
         css: 'picto-equipement_chambre_mobilier_de_terrasse',
       },
       individualHeating: {
-        'en-US': 'Individual Heating',
-        'fr-FR': 'Chauffage Individuel',
+        'en-US': 'Individual heating',
+        'fr-FR': 'Chauffage individuel',
         css: 'picto-equipement_chambre_mobilier_de_terrasse',
       },
     },
@@ -476,6 +481,12 @@ module.exports = {
         default: true,
         'en-US': 'Salad Bowl',
         'fr-FR': 'Saladier',
+        css: 'picto-equipement_cuisine_bols',
+      },
+      colander: {
+        default: true,
+        'en-US': 'Colander',
+        'fr-FR': 'Passoire',
         css: 'picto-equipement_cuisine_bols',
       },
       drainer: {
