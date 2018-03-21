@@ -41,6 +41,7 @@ module.exports = {
     lyon:         70000,
     montpellier:  50000,
     lille:        50000,
+    toulouse:     50000,
   },
 
   ROOM_SWITCH_FEES: {
