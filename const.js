@@ -31,9 +31,9 @@ module.exports = {
       privilege:  89000,
     },
     lille: {
-      basic:      29000,
-      comfort:    49000,
-      privilege:  69000,
+      basic:      49000,
+      comfort:    69000,
+      privilege:  89000,
     },
   },
   DEPOSIT_PRICES: {
