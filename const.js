@@ -26,9 +26,9 @@ module.exports = {
       privilege:  89000,
     },
     toulouse: {
-      basic:      49000,
-      comfort:    69000,
-      privilege:  89000,
+      basic:      29000,
+      comfort:    49000,
+      privilege:  69000,
     },
     lille: {
       basic:      49000,
@@ -109,9 +109,9 @@ module.exports = {
 
   LEASE_SPECIMEN_URL: 'https://drive.google.com/file/d/0B6uBt4Bf8BxuSnRod3d1TGp3bFU/view',
 
-  IDENTITY_FORM_URL: 'https://eu.jotform.com/cheznestor/identity-record',
+  IDENTITY_FORM_URL: 'https://forms.chez-nestor.com/cheznestor/identity-record',
 
-  ELIGIBILITY_FORM_URL: 'https://form.jotform.com/72003771604953',
+  ELIGIBILITY_FORM_URL: 'https://forms.chez-nestor.com/72003771604953',
 
   CHECKIN_FORM_URLS: {
     basic: 'forms.chez-nestor.com/73332904404955',
