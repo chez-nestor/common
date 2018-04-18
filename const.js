@@ -328,12 +328,12 @@ module.exports = {
       armchair: {
         'en-US': 'Armchair',
         'fr-FR': 'Fauteuil',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       sofa: {
         'en-US': 'Sofa',
         'fr-FR': 'Canapé',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       coffeeTable: {
         'en-US': 'Coffee table',
@@ -407,7 +407,7 @@ module.exports = {
         default: true,
         'en-US': 'Microwave',
         'fr-FR': 'Micro-onde',
-        css: 'picto-equipement_cuisine_micro_ondes',
+        css: 'picto-equipement_cuisine_microondes',
       },
       hotPlates: {
         'en-US': 'Hot-plates',
@@ -417,7 +417,7 @@ module.exports = {
       dishwasher: {
         'en-US': 'Dishwasher',
         'fr-FR': 'Lave-vaisselle',
-        css: 'picto-equipement_cuisine_lave_vaisselle',
+        css: 'picto-equipement_cuisine_lavevaisselle',
       },
       fridge: {
         default: true,
@@ -440,7 +440,7 @@ module.exports = {
       pan: {
         default: true,
         'en-US': 'Pans',
-        'fr-FR': 'Poeles',
+        'fr-FR': 'Poêles',
         css: 'picto-equipement_cuisine_poeles',
       },
       utensils: {
@@ -513,7 +513,7 @@ module.exports = {
         default: true,
         'en-US': 'Corkscrew',
         'fr-FR': 'Tire-bouchon',
-        css: 'picto-equipement_cuisine_tire_bouchon',
+        css: 'picto-equipement_cuisine_tirebouchon',
       },
       cuttingBoards: {
         default: true,
@@ -608,7 +608,7 @@ module.exports = {
       washingMachine: {
         'en-US': 'Washing Machine',
         'fr-FR': 'Lave-linge',
-        css: 'picto-equipement_general_lave_linge',
+        css: 'picto-equipement_general_lavelinge',
       },
       storage: {
         'en-US': 'Storage',
