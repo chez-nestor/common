@@ -113,6 +113,8 @@ module.exports = {
 
   ELIGIBILITY_FORM_URL: 'https://forms.chez-nestor.com/72003771604953',
 
+  HOUSING_GUIDE_URL: 'http://forms.chez-nestor.com/cheznestor/HousingGuide',
+
   CHECKIN_FORM_URLS: {
     basic: 'forms.chez-nestor.com/73332904404955',
     comfort: 'forms.chez-nestor.com/73344756704966',
