@@ -283,7 +283,7 @@ module.exports = {
         default: true,
         'en-US': 'Desk and Chair',
         'fr-FR': 'Bureau et Chaise',
-        css: 'picto-equipement_chambre_bureau',
+        css: 'picto-equipement_chambre_bureau_et_chaise',
       },
       lamp: {
         default: true,
@@ -395,7 +395,7 @@ module.exports = {
       individualHeating: {
         'en-US': 'Individual heating',
         'fr-FR': 'Chauffage individuel',
-        css: 'picto-equipement_chambre_mobilier_de_terrasse',
+        css: 'picto-equipement_chambre_chauffage',
       },
     },
     'apartment-features-kitchen': {
@@ -491,13 +491,13 @@ module.exports = {
         default: true,
         'en-US': 'Salad Bowl',
         'fr-FR': 'Saladier',
-        css: 'picto-equipement_cuisine_bols',
+        css: 'picto-equipement_cuisine_saladier',
       },
       colander: {
         default: true,
         'en-US': 'Colander',
         'fr-FR': 'Passoire',
-        css: 'picto-equipement_cuisine_bols',
+        css: 'picto-equipement_cuisine_passoires',
       },
       glassBottle: {
         default: true,
@@ -509,7 +509,7 @@ module.exports = {
         default: true,
         'en-US': 'Scissors',
         'fr-FR': 'Ciseaux',
-        css: 'picto-equipement_cuisine_bouteilles_de_verre',
+        css: 'picto-equipement_cuisine_ciseaux',
       },
       corkscrew: {
         default: true,
@@ -521,7 +521,7 @@ module.exports = {
         default: true,
         'en-US': 'Cutting Boards',
         'fr-FR': 'Planches à découper',
-        css: 'picto-equipement_general_planche_a_repasser',
+        css: 'picto-equipement_general_planche_a_decouper',
       },
       storage: {
         default: true,
@@ -546,7 +546,7 @@ module.exports = {
       bathtub: {
         'en-US': 'Bathtub',
         'fr-FR': 'Baignoire',
-        css: 'picto-equipement_salle_de_bain_douche',
+        css: 'picto-equipement_salle_de_bain_baignoire',
       },
       shower: {
         'en-US': 'Shower',
@@ -561,7 +561,7 @@ module.exports = {
       sink: {
         'en-US': 'Sink',
         'fr-FR': 'Lavabo',
-        css: 'picto-equipement_salle_de_bain_douche',
+        css: 'picto-equipement_salle_de_bain_lavabo',
       },
     },
     'apartment-features-general': {
@@ -605,7 +605,7 @@ module.exports = {
         default: true,
         'en-US': 'Scrub Brush',
         'fr-FR': 'Balai Brosse',
-        css: 'picto-equipement_general_kit_menage',
+        css: 'picto-equipement_general_balaibrosse',
       },
       washingMachine: {
         'en-US': 'Washing Machine',
