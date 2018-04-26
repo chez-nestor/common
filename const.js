@@ -115,6 +115,8 @@ module.exports = {
 
   HOUSING_GUIDE_URL: 'http://forms.chez-nestor.com/cheznestor/HousingGuide',
 
+  ALERT_FORM_URL: 'https://form.jotform.com/81084169528968',
+
   CHECKIN_FORM_URLS: {
     basic: 'forms.chez-nestor.com/73332904404955',
     comfort: 'forms.chez-nestor.com/73344756704966',
