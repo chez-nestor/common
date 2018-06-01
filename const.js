@@ -71,26 +71,27 @@ module.exports = {
   },
 
   SERVICE_FEES: {
-    1:            5000, // 1 room
-    2:            4000, // 2 rooms
-    default:      3000, // 3 or more rooms
+    1:              5000, // 1 room
+    2:              4000, // 2 rooms
+    default:        3000, // 3 or more rooms
   },
 
-  CHECKIN_DURATION:  30,
-  CHECKOUT_DURATION: 60,
+  CHECKIN_DURATION:   30,
+  CHECKOUT_DURATION:  60,
+  VISIT_DURATION:     20,
 
   LATE_NOTICE_FEES: {
-    '0-9days':   67900,
-    '10-19days': 47900,
-    '20-29days': 27900,
+    '0-9days':     67900,
+    '10-19days':   47900,
+    '20-29days':   27900,
   },
 
-  LATE_FEES: 1000,
+  LATE_FEES:        1000,
 
   DEPOSIT_REFUND_DELAYS: {
-    basic:     60,
-    comfort:   40,
-    privilege: 20,
+    basic:            60,
+    comfort:          40,
+    privilege:        20,
   },
 
   UNCASHED_DEPOSIT_FEE: 2900,
