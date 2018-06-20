@@ -11,9 +11,9 @@ module.exports = {
 
   PACK_PRICES: {
     paris: {
-      basic:      89000,
-      comfort:   119000,
-      privilege: 149000,
+      basic:      49000,
+      comfort:    79000,
+      privilege: 109000,
     },
     lyon: {
       basic:      19000,
