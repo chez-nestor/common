@@ -21,9 +21,9 @@ module.exports = {
       privilege:  59000,
     },
     montpellier: {
-      basic:      19000,
-      comfort:    39000,
-      privilege:  59000,
+      basic:      39000,
+      comfort:    59000,
+      privilege:  79000,
     },
     toulouse: {
       basic:      19000,
