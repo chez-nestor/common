@@ -11,29 +11,29 @@ module.exports = {
 
   PACK_PRICES: {
     paris: {
-      basic:      49000,
-      comfort:    79000,
-      privilege: 109000,
+      basic:      89000,
+      comfort:   119000,
+      privilege: 149000,
     },
     lyon: {
-      basic:      19000,
-      comfort:    39000,
-      privilege:  59000,
+      basic:      59000,
+      comfort:    79000,
+      privilege:  99000,
     },
     montpellier: {
-      basic:      39000,
-      comfort:    59000,
-      privilege:  79000,
+      basic:      49000,
+      comfort:    69000,
+      privilege:  89000,
     },
     toulouse: {
-      basic:      19000,
-      comfort:    39000,
-      privilege:  59000,
+      basic:      49000,
+      comfort:    69000,
+      privilege:  89000,
     },
     lille: {
-      basic:      19000,
-      comfort:    39000,
-      privilege:  59000,
+      basic:      49000,
+      comfort:    69000,
+      privilege:  89000,
     },
   },
   DEPOSIT_PRICES: {
