@@ -120,11 +120,7 @@ module.exports = {
 
   ALERT_FORM_URL: 'https://forms.chez-nestor.com/81084169528968',
 
-  CHECKIN_FORM_URLS: {
-    basic: 'forms.chez-nestor.com/73332904404955',
-    comfort: 'forms.chez-nestor.com/73344756704966',
-    privilege: 'forms.chez-nestor.com/73344784804968',
-  },
+  CHECKIN_FORM_URL: 'https://forms.chez-nestor.com/72183828304962',
 
   ENUMS: {
     apartmentPicsAlts: {
