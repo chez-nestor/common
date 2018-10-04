@@ -122,6 +122,8 @@ module.exports = {
 
   CHECKIN_FORM_URL: 'https://forms.chez-nestor.com/72183828304962',
 
+  CHECKOUT_FORM_URL: 'https://forms.chez-nestor.com/80883251192357',
+
   ENUMS: {
     apartmentPicsAlts: {
       kitchen: {
