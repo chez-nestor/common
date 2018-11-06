@@ -9,41 +9,6 @@ module.exports = {
   COMFORT_PACK:     'comfort',
   PRIVILEGE_PACK: 'privilege',
 
-  PACK_PRICES: {
-    paris: {
-      basic:      89000,
-      comfort:   119000,
-      privilege: 149000,
-    },
-    lyon: {
-      basic:      69000,
-      comfort:    89000,
-      privilege: 109000,
-    },
-    montpellier: {
-      basic:      59000,
-      comfort:    79000,
-      privilege:  99000,
-    },
-    toulouse: {
-      basic:      49000,
-      comfort:    69000,
-      privilege:  89000,
-    },
-    lille: {
-      basic:      49000,
-      comfort:    69000,
-      privilege:  89000,
-    },
-  },
-  DEPOSIT_PRICES: {
-    paris:        90000,
-    lyon:         70000,
-    montpellier:  50000,
-    lille:        50000,
-    toulouse:     50000,
-  },
-
   ROOM_SWITCH_FEES: {
     basic:        29000,
     comfort:      19000,
@@ -253,7 +218,7 @@ module.exports = {
       sofaBed: {
         'en-US': 'Double sofa bed',
         'fr-FR': 'Canapé-lit double',
-        css: 'picto-equipement_chambre_canape_lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       bedsideTable: {
         'en-US': 'Bedside Table',
@@ -263,7 +228,7 @@ module.exports = {
       bedsideLamp: {
         'en-US': 'Bedside Lamp',
         'fr-FR': 'Lampe de chevet',
-        css: 'picto-equipement_chambre_table_chevet',
+        css: 'picto-equipement_chambre_lampe_chevet',
       },
       shutters: {
         'en-US': 'Shutters',
@@ -333,7 +298,7 @@ module.exports = {
       armchair: {
         'en-US': 'Armchair',
         'fr-FR': 'Fauteuil',
-        css: 'picto-equipement_chambre_canape_ou_canapelit',
+        css: 'picto-equipement_chambre_fauteuil',
       },
       sofa: {
         'en-US': 'Sofa',
@@ -458,7 +423,7 @@ module.exports = {
         default: true,
         'en-US': 'Large pot',
         'fr-FR': 'Faitout',
-        css: 'picto-equipement_cuisine_ustensiles',
+        css: 'picto-equipement_cuisine_faitout',
       },
       plates: {
         default: true,
@@ -500,7 +465,7 @@ module.exports = {
         default: true,
         'en-US': 'Colander',
         'fr-FR': 'Passoire',
-        css: 'picto-equipement_cuisine_passoires',
+        css: 'picto-equipement_cuisine_passoire',
       },
       glassBottle: {
         default: true,
@@ -524,7 +489,7 @@ module.exports = {
         default: true,
         'en-US': 'Cutting Boards',
         'fr-FR': 'Planches à découper',
-        css: 'picto-equipement_general_planche_a_decouper',
+        css: 'picto-equipement_general_planches_a_decouper',
       },
       storage: {
         default: true,
@@ -628,17 +593,17 @@ module.exports = {
       sofa: {
         'en-US': 'Sofa',
         'fr-FR': 'Canapé',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       sofaBed: {
         'en-US': 'Sofa bed',
         'fr-FR': 'Canapé convertible',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       armchair: {
         'en-US': 'Armchair',
         'fr-FR': 'Fauteuil',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+        css: 'picto-equipement_chambre_fauteuil',
       },
       coffeeTable: {
         'en-US': 'Coffee Table',
