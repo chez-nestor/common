@@ -215,11 +215,6 @@ module.exports = {
         'fr-FR': 'Couette et Oreiller',
         css: 'picto-equipement_chambre_couette_et_oreiller',
       },
-      sofaBed: {
-        'en-US': 'Double sofa bed',
-        'fr-FR': 'Canapé-lit double',
-        css: 'picto-equipement_chambre_canape_ou_canapelit',
-      },
       bedsideTable: {
         'en-US': 'Bedside Table',
         'fr-FR': 'Table de chevet',
@@ -244,6 +239,26 @@ module.exports = {
         'en-US': 'Veil Curtains',
         'fr-FR': 'Voilage',
         css: 'picto-equipement_chambre_rideaux_ou_voilages',
+      },
+      doubleBed: {
+        'en-US': 'Double bed',
+        'fr-FR': 'Lit double',
+        css: 'picto-equipement_chambre_lit_double',
+      },
+      simpleBed: {
+        'en-US': 'Simple bed',
+        'fr-FR': 'Lit simple',
+        css: 'picto-equipement_chambre_lit_simple',
+      },
+      twoSimpleBed: {
+        'en-US': 'Two simple beds',
+        'fr-FR': 'Deux lits simples',
+        css: 'picto-equipement_chambre_lit_simple',
+      },
+      sofaBed: {
+        'en-US': 'Sofa bed',
+        'fr-FR': 'Canapé lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
     },
     'room-features-work': {
@@ -299,11 +314,6 @@ module.exports = {
         'en-US': 'Armchair',
         'fr-FR': 'Fauteuil',
         css: 'picto-equipement_chambre_fauteuil',
-      },
-      sofa: {
-        'en-US': 'Sofa',
-        'fr-FR': 'Canapé',
-        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       coffeeTable: {
         'en-US': 'Coffee table',
@@ -364,6 +374,11 @@ module.exports = {
         'en-US': 'Individual heating',
         'fr-FR': 'Chauffage individuel',
         css: 'picto-equipement_chambre_chauffage',
+      },
+      sofaBed: {
+        'en-US': 'Sofa bed',
+        'fr-FR': 'Canapé lit',
+        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
     },
     'apartment-features-kitchen': {
@@ -489,7 +504,7 @@ module.exports = {
         default: true,
         'en-US': 'Cutting Boards',
         'fr-FR': 'Planches à découper',
-        css: 'picto-equipement_general_planches_a_decouper',
+        css: 'picto-equipement_cuisine_planches_a_decouper',
       },
       storage: {
         default: true,
@@ -589,11 +604,6 @@ module.exports = {
         'en-US': 'Hangers',
         'fr-FR': 'Cintres',
         css: 'picto-equipement_chambre_cintres',
-      },
-      sofa: {
-        'en-US': 'Sofa',
-        'fr-FR': 'Canapé',
-        css: 'picto-equipement_chambre_canape_ou_canapelit',
       },
       sofaBed: {
         'en-US': 'Sofa bed',
