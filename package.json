@@ -1,6 +1,6 @@
 {
   "name": "cheznestor-common",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "description": "Constants used throughout Chez Nestor projects",
   "main": "index.js",
   "scripts": {

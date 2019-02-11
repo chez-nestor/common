@@ -63,12 +63,6 @@ module.exports = {
 
   TWO_OCCUPANTS_FEES: 9000,
 
-  AGENCY_ADDRESSES: {
-    paris: '76 rue de Rivoli, 75004 Paris',
-    lyon: '16 rue de Condé, 69002 Lyon',
-    montpellier: '4 rue Paul Lacroix, 34070 Montpellier',
-  },
-
   SALES_EMAIL: 'hello@chez-nestor.com',
 
   SUPPORT_EMAIL: 'support@chez-nestor.com',
@@ -85,7 +79,7 @@ module.exports = {
 
   ALERT_FORM_URL: 'https://forms.chez-nestor.com/81084169528968',
 
-  CHECKIN_FORM_URL: 'https://forms.chez-nestor.com/72183828304962',
+  CHECKIN_FORM_URL: 'https://www.jotformpro.com/form/72183828304962',
 
   CHECKOUT_FORM_URL: 'https://forms.chez-nestor.com/80883251192357',
 
