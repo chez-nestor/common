@@ -83,6 +83,8 @@ module.exports = {
 
   CHECKOUT_FORM_URL: 'https://forms.chez-nestor.com/80883251192357',
 
+  DEPOSIT_REFUND_FORM_URL: 'https://forms.chez-nestor.com/72291766784369',
+
   ENUMS: {
     apartmentPicsAlts: {
       kitchen: {
