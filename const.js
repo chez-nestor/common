@@ -176,7 +176,7 @@ module.exports = {
       },
       privateBalcony: {
         'en-US': 'Private Balcony',
-        'fr-FR': 'Ballcon privé',
+        'fr-FR': 'Balcon privé',
         'es-ES': 'Balcón privado',
       },
       privateTerrace: {
@@ -740,6 +740,12 @@ module.exports = {
         'fr-FR': 'Mobilier de Terrasse',
         'es-ES': 'Muebles de terraza',
         css: 'picto-equipement_chambre_mobilier_de_terrasse',
+      },
+      bikeShelter: {
+        'en-US': 'Bicycle shelter',
+        'fr-FR': 'Local vélo',
+        'es-ES': 'Garge de bicicletas',
+        css: 'picto-local_velo',
       },
     },
   },
