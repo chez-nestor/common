@@ -744,7 +744,7 @@ module.exports = {
       bikeShelter: {
         'en-US': 'Bicycle shelter',
         'fr-FR': 'Local vélo',
-        'es-ES': 'Garge de bicicletas',
+        'es-ES': 'Garaje de bicicletas',
         css: 'picto-local_velo',
       },
     },
