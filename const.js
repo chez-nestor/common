@@ -430,6 +430,12 @@ module.exports = {
         'es-ES': 'Calefacción individual',
         css: 'picto-equipement_chambre_chauffage',
       },
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        'es-ES': 'Sofá',
+        css: 'picto-equipement_general_canape',
+      },
       sofaBed: {
         'en-US': 'Sofa bed',
         'fr-FR': 'Canapé lit',
@@ -698,6 +704,12 @@ module.exports = {
         'fr-FR': 'Cintres',
         'es-ES': 'Perchas',
         css: 'picto-equipement_chambre_cintres',
+      },
+      sofa: {
+        'en-US': 'Sofa',
+        'fr-FR': 'Canapé',
+        'es-ES': 'Sofá',
+        css: 'picto-equipement_general_canape',
       },
       sofaBed: {
         'en-US': 'Sofa bed',
