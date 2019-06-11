@@ -75,7 +75,10 @@ module.exports = {
 
   TENANCY_FILE_FORM_URL: 'https://forms.chez-nestor.com/91423328844358',
 
-  ELIGIBILITY_FORM_URL: 'https://cheznestor.typeform.com/to/gclDho',
+  ELIGIBILITY_FORM_URLS: {
+    'en-US': 'https://cheznestor.typeform.com/to/BHMPGU',
+    'fr-FR': 'https://cheznestor.typeform.com/to/C9LNlm'
+  },
 
   HOUSING_GUIDE_URL: 'https://forms.chez-nestor.com/81264205204950',
 
