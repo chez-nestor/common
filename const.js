@@ -164,6 +164,26 @@ module.exports = {
         'fr-FR': 'Floor Plan',
         'es-ES': 'Plano de acceso',
       },
+      watermeter: {
+        'en-US': 'Water meter',
+        'fr-FR': 'Compteur d\'eau',
+        'es-ES': 'Medidor de agua',
+      },
+      electricitymeter: {
+        'en-US': 'Electricity meter',
+        'fr-FR': 'Compteur électrique',
+        'es-ES': 'Contador eléctrico',
+      },
+      circuitbreaker: {
+        'en-US': 'Circuit breaker',
+        'fr-FR': 'Tableau électrique',
+        'es-ES': 'Tablero de distribución',
+      },
+      switchboard: {
+        'en-US': 'Switchboard',
+        'fr-FR': 'Disjoncteur',
+        'es-ES': 'Disyunctor',
+      },
     },
     roomPicsAlts: {
       overview: {
