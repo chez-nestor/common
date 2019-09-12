@@ -92,6 +92,10 @@ module.exports = {
 
   INVENTORY_FORM_URL: 'https://forms.chez-nestor.com/90784713029360',
 
+  GARAGE_IDENTITY_FORM_URL: 'https://forms.chez-nestor.com/90934734543361',
+
+  GARAGE_CHECKIN_FORM_URL: 'https://forms.chez-nestor.com/92334179581362',
+
   ENUMS: {
     apartmentPicsAlts: {
       kitchen: {
