@@ -46,9 +46,9 @@ module.exports = {
   VISIT_DURATION:     20,
 
   LATE_NOTICE_FEES: {
-    '0-9days':     67900,
-    '10-19days':   47900,
-    '20-29days':   27900,
+    '0-9days':     57900,
+    '10-19days':   37900,
+    '20-29days':   17900,
   },
 
   LATE_FEES:        1000,
