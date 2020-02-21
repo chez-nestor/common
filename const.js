@@ -69,8 +69,12 @@ module.exports = {
 
   LEASE_SPECIMEN_URL: 'https://drive.google.com/file/d/0B6uBt4Bf8BxuSnRod3d1TGp3bFU/view',
 
+  // DEPRECATED
   IDENTITY_FORM_URL: 'https://forms.chez-nestor.com/cheznestor/identity-record',
 
+  NEW_IDENTITY_FORM_URL: 'https://forms.chez-nestor.com/cheznestor/200414549437050',
+
+  // DEPRECATED
   PLUS1_FORM_URL: 'https://forms.chez-nestor.com/81495014404956',
 
   TENANCY_FILE_FORM_URL: 'https://forms.chez-nestor.com/91423328844358',
