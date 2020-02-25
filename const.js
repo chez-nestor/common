@@ -77,7 +77,10 @@ module.exports = {
   // DEPRECATED
   PLUS1_FORM_URL: 'https://forms.chez-nestor.com/81495014404956',
 
+  // DEPRECATED
   TENANCY_FILE_FORM_URL: 'https://forms.chez-nestor.com/91423328844358',
+
+  NEW_TENANCY_FILE_FORM_URL: 'https://forms.chez-nestor.com/200441789653056',
 
   ELIGIBILITY_FORM_URLS: {
     'en-US': 'https://cheznestor.typeform.com/to/BHMPGU',
