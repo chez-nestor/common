@@ -36,9 +36,9 @@ module.exports = {
   },
 
   SERVICE_FEES: {
-    1:              6000, // 1 room
-    2:              6000, // 2 rooms
-    default:        6000, // 3 or more rooms
+    1:              7000, // 1 room
+    2:              7000, // 2 rooms
+    default:        7000, // 3 or more rooms
   },
 
   CHECKIN_DURATION:   30,
